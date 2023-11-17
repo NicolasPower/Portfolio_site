@@ -54,8 +54,8 @@ const Home: React.FC = () => {
         )}
 
         {activeSection === 'projects' && (
-          <div className='flex flex-row pt-2'>
-            <div className='p-2'>
+          <div className='flex flex-wrap pt-2 mt-10'>
+            <div className='p-2 mx-auto items-center content-center w-1/3'>
               <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                   <a href="#">
                       <img className="rounded-t-lg" src="/img/food-name.png" alt="" />
@@ -77,7 +77,7 @@ const Home: React.FC = () => {
               </div>
             </div>
 
-            <div className='p-2'>
+            <div className='p-2 mx-auto items-center content-center w-1/3'>
               <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                   <a href="#">
                       <img className="rounded-t-lg" src="/img/food-name.png" alt="" />
@@ -99,7 +99,7 @@ const Home: React.FC = () => {
               </div>
             </div>
 
-            <div className='p-2'>
+            <div className='p-2 mx-auto items-center content-center w-1/3'>
               <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                   <a href="#">
                       <img className="rounded-t-lg" src="/img/food-name.png" alt="" />
