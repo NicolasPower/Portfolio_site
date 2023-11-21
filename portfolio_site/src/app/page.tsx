@@ -95,194 +95,205 @@ const Home: React.FC = () => {
         <div className="w-full">
           {/* about and skills */}
           <Element name="about" className="element">
-            <div className="h-screen flex">
-              {/* Header */}
-              <div className="h-full">
-                <h1 className="mb-4 font-extrabold leading-none tracking-tight text-text text-5xl">
-                  About me
-                </h1>
-              </div>
-              
-              {/* Description */}      
-              <div className="flex flex-row mt-10 text-text font-bold">
+            <div className="h-screen">
+              <div className="flex flex-wrap">
                 <div className="w-1/2">
-                  <p className="mb-2 text-lg">
-                  I&apos;m a student studying at the Queensland University 
-                  of Technology  majoring in Computer Science. I have a keen 
-                  interest in Front-end Web Development but have skills in other 
-                  fields.
-                  </p>
+                  {/* Header */}
+                  <div className="">
+                    <h1 className="mb-4 font-extrabold leading-none tracking-tight text-text text-5xl">
+                      About me
+                    </h1>
+                  </div>
+                  
+                  {/* Description */}      
+                  <div className="flex flex-col mt-10 text-text">
+                      <p className="mb-2 text-lg">
+                      I&apos;m a student studying at the Queensland University 
+                      of Technology  majoring in <span className="font-bold">Computer Science</span>. I have a keen 
+                      interest in <span className="font-bold">Front-end Web Development</span> but have skills in other 
+                      fields.
+                      </p>
 
-                  <p className="mb-2 text-lg">
-                  I am actively seeking employment opportunities that align with my 
-                  expertise and offer a platform for continuous learning and professional 
-                  growth. If you have a position that matches my skillset and experience do
-                  not hesitate to contact me.
-                  </p>
+                      <p className="mb-2 text-lg">
+                      I am actively seeking employment opportunities that align with my 
+                      <span className="font-bold"> expertise</span> and offer a platform for continuous learning and 
+                      <span className="font-bold"> professional growth</span> 
+                      . If you have a position that matches my skillset and experience do
+                      not hesitate to contact me.
+                      </p>
+                  </div>
+
+                  {/* Skills */}
+                  <h1 className="my-4 font-extrabold leading-none tracking-tight text-text text-5xl">Skills</h1>
+                  <div className="flex flex-col mx-auto text-text font-bold">
+                        <div className="flex flex-wrap justify-center content-center items-center w-full mx-auto">
+                          <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
+                            
+                            <img
+                              className="object-contain h-20 mx-auto"
+                              src="/img/python.png"
+                              alt=""
+                            />
+                            <p>Python</p>
+                          </div>
+
+                      
+                          <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
+                            <img className="objech-contain w-20 mx-auto" src="/img/c.png" alt="" />
+                            <p className="">C</p>
+                          </div>
+
+                          <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
+                            
+                            <img
+                              className="object-contain h-20 mx-auto"
+                              src="/img/c++.png"
+                              alt=""
+                            />
+                            <p className="">C++</p>
+                          </div>
+
+                          <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
+                            
+                            <img
+                              className="object-contain h-20 mx-auto"
+                              src="/img/javascript.png"
+                              alt=""
+                            />
+                            <p className="">Java Script</p>
+                          </div>
+
+                          <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
+                            
+                            <img
+                              className="object-contain h-20 mx-auto"
+                              src="/img/typescript.png"
+                              alt=""
+                            />
+                            <p className="">Type Script</p>
+                          </div>
+
+                          <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
+                            
+                            <img
+                              className="object-contain h-20 mx-auto"
+                              src="/img/react.png"
+                              alt=""
+                            />
+                            <p>React</p>
+                          </div>
+
+                          <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
+                            
+                            <img
+                              className="object-contain h-20 mx-auto"
+                              src="/img/next.png"
+                              alt=""
+                            />
+                            <p className="">Next.js</p>
+                          </div>
+
+                          <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
+                            
+                            <img
+                              className="object-contain h-20 mx-auto"
+                              src="/img/flask.png"
+                              alt=""
+                            />
+                            <p className="">flask</p>
+                          </div>
+
+                          <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
+                            
+                            <img
+                              className="object-contain h-20 mx-auto"
+                              src="/img/node.png"
+                              alt=""
+                            />
+                            <p className="">Node</p>
+                          </div>
+
+                          <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
+                            
+                            <img
+                              className="object-contain h-20 mx-auto"
+                              src="/img/sql.svg"
+                              alt=""
+                            />
+                            <p className="">SQL</p>
+                          </div>
+
+                          <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
+                            
+                            <img
+                              className="object-contain h-20 mx-auto"
+                              src="/img/css.png"
+                              alt=""
+                            />
+                            <p className="">CSS</p>
+                          </div>
+
+                          <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
+                            
+                            <img
+                              className="object-contain h-20 mx-auto"
+                              src="/img/html.png"
+                              alt=""
+                            />
+                            <p className="">HTML</p>
+                          </div>
+
+                          <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
+                            
+                            <img
+                              className="object-contain h-20 mx-auto"
+                              src="/img/bootstrap.png"
+                              alt=""
+                            />
+                            <p className="">Boot Strap</p>
+                          </div>
+
+                          <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
+                            
+                            <img
+                              className="object-contain h-20 mx-auto"
+                              src="/img/tailwind.webp"
+                              alt=""
+                            />
+                            <p className="">Tailwind CSS</p>
+                          </div>
+
+                        </div>
+                  </div>
                 </div>
-              </div>
-              
-              {/* Image */}
-              <div className="w-1/2">
-                <img className="object-contain h-96 rounded-full" src="/img/pfp.jpg" alt=".."></img>
-              </div>
-              
-              {/* Skills */}
-              <div className="flex flex-col mx-auto text-text font-bold">
-                    <div className="flex flex-wrap justify-center content-center items-center w-full mx-auto p-2">
-                      <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
-                        <img
-                          className="w-20 h-20 mx-auto"
-                          src="/img/python.png"
-                          alt=""
-                        />
-                        <p>Python</p>
-                      </div>
+                
+                {/* Image */}
+                <div className="w-1/2  text-center">
+                  <img className="object-contain h-2/3 rounded-full mx-auto" src="/img/pfp.jpg" alt="Profile Picture"></img>
+                </div>
+                
 
-                      <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
-                        <img className="w-20 h-20 mx-auto" src="/img/c.png" alt="" />
-                        <p className="">C</p>
-                      </div>
 
-                      <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
-                        <img
-                          className="w-20 h-20 mx-auto"
-                          src="/img/c++.png"
-                          alt=""
-                        />
-                        <p className="">C++</p>
-                      </div>
-
-                      <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
-                        <img
-                          className="w-20 h-20 mx-auto"
-                          src="/img/javascript.png"
-                          alt=""
-                        />
-                        <p className="">Java Script</p>
-                      </div>
-
-                      <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
-                        <img
-                          className="w-20 h-20 mx-auto"
-                          src="/img/typescript.png"
-                          alt=""
-                        />
-                        <p className="">Type Script</p>
-                      </div>
-
-                      <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
-                        <img
-                          className="w-20 h-20 mx-auto"
-                          src="/img/react.png"
-                          alt=""
-                        />
-                        <p>React</p>
-                      </div>
-
-                      <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
-                        <img
-                          className="w-20 h-20 mx-auto"
-                          src="/img/next.png"
-                          alt=""
-                        />
-                        <p className="">Next.js</p>
-                      </div>
-
-                      <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
-                        <img
-                          className="w-20 h-20 mx-auto"
-                          src="/img/flask.png"
-                          alt=""
-                        />
-                        <p className="">flask</p>
-                      </div>
-
-                      <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
-                        <img
-                          className="w-20 h-20 mx-auto"
-                          src="/img/node.png"
-                          alt=""
-                        />
-                        <p className="">Node</p>
-                      </div>
-
-                      <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
-                        <img
-                          className="w-20 h-20 mx-auto"
-                          src="/img/sql.svg"
-                          alt=""
-                        />
-                        <p className="">SQL</p>
-                      </div>
-
-                      <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
-                        <img
-                          className="w-20 h-20 mx-auto"
-                          src="/img/css.png"
-                          alt=""
-                        />
-                        <p className="">CSS</p>
-                      </div>
-
-                      <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
-                        <img
-                          className="w-20 h-20 mx-auto"
-                          src="/img/html.png"
-                          alt=""
-                        />
-                        <p className="">HTML</p>
-                      </div>
-
-                      <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
-                        <img
-                          className="w-20 h-20 mx-auto"
-                          src="/img/bootstrap.png"
-                          alt=""
-                        />
-                        <p className="">Boot Strap</p>
-                      </div>
-
-                      <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
-                        <img
-                          className="w-20 h-20 mx-auto"
-                          src="/img/tailwind.webp"
-                          alt=""
-                        />
-                        <p className="">Tailwind CSS</p>
-                      </div>
-
-                      <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
-                        <img
-                          className="w-20 h-20 mx-auto"
-                          src="/img/docker.png"
-                          alt=""
-                        />
-                        <p className="">Docker</p>
-                      </div>
-                    </div>
               </div>
             </div>
-            
-
           </Element>
 
           {/* Projects */}
           <Element name="Projects" className="element">
             <div>
-              <h1 className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+              <h1 className="mb-4 font-extrabold leading-none tracking-tight text-6xl text-text" >
                 Projects
               </h1>
             </div>
             <div className="flex flex-wrap pt-2 mt-10">
               <div className="p-2 mx-auto items-center content-center w-1/3">
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className="max-w-sm border border-gray-200 rounded-lg shadow bg-[#F4BF96]">
                   <a href="#">
                     <img className="rounded-t-lg" src="/img/food-name.png" alt="" />
                   </a>
                   <div className="p-5">
                     <a href="#">
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-text">
                         Musical Foods
                       </h5>
                     </a>
