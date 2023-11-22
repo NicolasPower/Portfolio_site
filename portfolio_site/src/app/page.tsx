@@ -139,7 +139,11 @@ const Home: React.FC = () => {
 
                       
                           <div className="flex-initial text-center w-16 h-8 mx-5 mb-28">
-                            <img className="objech-contain w-20 mx-auto" src="/img/c.png" alt="" />
+                            <img 
+                              className="object-contain w-20 mx-auto" 
+                              src="/img/c.png" 
+                              alt="" 
+                            />
                             <p className="">C</p>
                           </div>
 
@@ -280,72 +284,31 @@ const Home: React.FC = () => {
 
           {/* Projects */}
           <Element name="Projects" className="element">
+
             <div>
-              <h1 className="mb-4 font-extrabold leading-none tracking-tight text-6xl text-text" >
+              <h1 className="mb-4 font-extrabold text-6xl text-text" >
                 Projects
               </h1>
             </div>
-            <div className="flex flex-wrap pt-2 mt-10">
-              <div className="p-2 mx-auto items-center content-center w-1/3">
-                <div className="max-w-sm border border-gray-200 rounded-lg shadow bg-[#F4BF96]">
-                  <a href="#">
-                    <img className="rounded-t-lg" src="/img/food-name.png" alt="" />
-                  </a>
-                  <div className="p-5">
-                    <a href="#">
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-text">
-                        Musical Foods
-                      </h5>
-                    </a>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                      This web application ustilises API&apos;s to find the origin of the
-                      users name and provide them with a geographically appropiate
-                      recipe and playlist.
-                    </p>
-                    <a
-                      href="https://github.com/NicolasPower/food-name.git"
-                      className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                    >
-                      Github
-                      <svg
-                        className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 14 10"
-                      >
-                        <path
-                          stroke="currentColor"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M1 5h12m0 0L9 1m4 4L9 9"
-                        />
-                      </svg>
-                    </a>
-                  </div>
-                </div>
+            
+            <div className="text-text flex mt-20">
+              <div className="w-1/3">
+                <img className="rounded-t-lg object-contain w-full" src="/img/musicalFoods.png" alt="" />
               </div>
-
-              <div className="p-2 mx-auto items-center content-center w-1/3">
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                  <a href="#">
-                    <img className="rounded-t-lg" src="/img/food-name.png" alt="" />
-                  </a>
-                  <div className="p-5">
-                    <a href="#">
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        Musical Foods
-                      </h5>
-                    </a>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                      This web application ustilises API&apos;s to find the origin of the
-                      users name and provide them with a geographically appropiate
-                      recipe and playlist.
-                    </p>
-                    <a
+              <div className="w-2/3 flex flex-col ml-12">
+                <h5 className="mb-2 text-3xl font-bold">
+                  Musical Foods
+                </h5>
+                <p className="mb-3 font-normal ">
+                  This web application ustilises API&apos;s to find the origin of the
+                  users name and provide them with a geographically appropiate
+                  recipe and playlist. This application was a trial run for a 
+                  stateless cloud applicatio, once the trial was done the cloud computing
+                  was removed and is now a static webpage
+                </p>
+                <a
                       href="https://github.com/NicolasPower/food-name.git"
-                      className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                      className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#CE5A67] rounded-lg hover:bg-[#ff7988] focus:ring-4 focus:outline-none focus:ring-blue-300 w-1/6"
                     >
                       Github
                       <svg
@@ -364,51 +327,88 @@ const Home: React.FC = () => {
                         />
                       </svg>
                     </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="p-2 mx-auto items-center content-center w-1/3">
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                  <a href="#">
-                    <img className="rounded-t-lg" src="/img/food-name.png" alt="" />
-                  </a>
-                  <div className="p-5">
-                    <a href="#">
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        Musical Foods
-                      </h5>
-                    </a>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                      This web application ustilises API&apos;s to find the origin of the
-                      users name and provide them with a geographically appropiate
-                      recipe and playlist.
-                    </p>
-                    <a
-                      href="https://github.com/NicolasPower/food-name.git"
-                      className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                    >
-                      Github
-                      <svg
-                        className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 14 10"
-                      >
-                        <path
-                          stroke="currentColor"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M1 5h12m0 0L9 1m4 4L9 9"
-                        />
-                      </svg>
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
+
+            <div className="text-text flex mt-20">
+              <div className="w-1/3">
+                <img className="rounded-t-lg object-contain w-full" src="/img/musicalFoods.png" alt="" />
+              </div>
+              <div className="w-2/3 flex flex-col ml-12">
+                <h5 className="mb-2 text-3xl font-bold">
+                  Musical Foods
+                </h5>
+                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  This web application ustilises API&apos;s to find the origin of the
+                  users name and provide them with a geographically appropiate
+                  recipe and playlist. This application was a trial run for a 
+                  stateless cloud applicatio, once the trial was done the cloud computing
+                  was removed and is now a static webpage
+                </p>
+                <a
+                      href="https://github.com/NicolasPower/food-name.git"
+                      className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#CE5A67] rounded-lg hover:bg-[#ff7988] focus:ring-4 focus:outline-none focus:ring-blue-300 w-1/6"
+                    >
+                      Github
+                      <svg
+                        className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 14 10"
+                      >
+                        <path
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M1 5h12m0 0L9 1m4 4L9 9"
+                        />
+                      </svg>
+                    </a>
+              </div>
+            </div>
+
+            <div className="text-text flex mt-20">
+              <div className="w-1/3">
+                <img className="rounded-t-lg object-contain w-full" src="/img/musicalFoods.png" alt="" />
+              </div>
+              <div className="w-2/3 flex flex-col ml-12">
+                <h5 className="mb-2 text-3xl font-bold">
+                  Musical Foods
+                </h5>
+                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  This web application ustilises API&apos;s to find the origin of the
+                  users name and provide them with a geographically appropiate
+                  recipe and playlist. This application was a trial run for a 
+                  stateless cloud applicatio, once the trial was done the cloud computing
+                  was removed and is now a static webpage
+                </p>
+                <a
+                      href="https://github.com/NicolasPower/food-name.git"
+                      className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#CE5A67] rounded-lg hover:bg-[#ff7988] focus:ring-4 focus:outline-none focus:ring-blue-300 w-1/6"
+                    >
+                      Github
+                      <svg
+                        className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 14 10"
+                      >
+                        <path
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M1 5h12m0 0L9 1m4 4L9 9"
+                        />
+                      </svg>
+                    </a>
+              </div>
+            </div>
+
+
           </Element>
 
 
