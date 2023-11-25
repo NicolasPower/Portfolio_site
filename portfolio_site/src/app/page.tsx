@@ -332,18 +332,16 @@ const Home: React.FC = () => {
 
             <div className="text-text flex mt-20">
               <div className="w-1/3">
-                <img className="rounded-t-lg object-contain w-full" src="/img/musicalFoods.png" alt="" />
+                <img className="rounded-t-lg object-contain w-full" src="/img/portfolioSite.png" alt="" />
               </div>
               <div className="w-2/3 flex flex-col ml-12">
                 <h5 className="mb-2 text-3xl font-bold">
-                  Musical Foods
+                  Portfolio Site
                 </h5>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                  This web application ustilises API&apos;s to find the origin of the
-                  users name and provide them with a geographically appropiate
-                  recipe and playlist. This application was a trial run for a 
-                  stateless cloud applicatio, once the trial was done the cloud computing
-                  was removed and is now a static webpage
+                <p className="mb-3 font-normal text-text">
+                  This very site your on!!! I made this to have a place to display my projects
+                  in a nice digestible fashion. This portfolio site serves as a virtual canvas 
+                  where I present my diverse range of skills and my completed projects.
                 </p>
                 <a
                       href="https://github.com/NicolasPower/food-name.git"
