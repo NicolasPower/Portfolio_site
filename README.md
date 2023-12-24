@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Nicolas's Portfolio
 
-## Getting Started
+Welcome to my portfolio website! As a computer science student, this platform serves as a showcase for my recent projects and highlights my skill set. Developed using Next.js and styled with the versatile Tailwind CSS framework, this website reflects my dedication to both functionality and aesthetic design.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Project Showcase:** Explore a curated collection of my recent projects..
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Skill Set Display:** Get insights into my technical skills and proficiency levels across various programming languages, frameworks, and tools.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technology Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Next.js:** The website is developed using Next.js, a React framework known for its performance and simplicity in building web applications.
 
-## Learn More
+- **Tailwind CSS:** Tailwind is employed as the primary CSS framework, providing utility-first styles and a responsive design approach.
 
-To learn more about Next.js, take a look at the following resources:
+## Development
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This portfolio website is a testament to my ongoing journey in computer science and web development.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Technologies Used
 
-## Deploy on Vercel
+- **Next.js:** A powerful React framework for building efficient and scalable web applications.
+- **Tailwind CSS:** A utility-first CSS framework for rapid and responsive web development.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The portfolio is live and accessible [here](#insert-link). Feel free to explore my projects and learn more about my skills and experiences.
