@@ -22,7 +22,7 @@ const Home: React.FC = () => {
           <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-text md:text-5xl lg:text-6xl">
             Hi, I&apos;m Nicolas Power
           </h1>
-          <p className="text-xl text-text md:text-xl lg:text-xl mt-10">
+          <p className="text-xl text-text md:text-xl lg:text-xl mt-10 w-4/5 text-center">
             A student studying Computer Science with a focus on front-end Web
             Development
           </p>
