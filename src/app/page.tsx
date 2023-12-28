@@ -297,16 +297,16 @@ const Home: React.FC = () => {
               <div className="lg:w-1/3 sm:w-4/5 pb-3">
                 <img className="rounded-t-lg object-contain w-full" src="/img/musicalFoods.png" alt="" />
               </div>
-              <div className="lg:w-2/3 sm:w-4/5 flex flex-col sm:text-center sm:items-center lg:text-start lg:ml-12 items-center lg:items-start">
+              <div className="lg:w-2/3 sm:w-4/5 flex flex-col text-center sm:items-center lg:text-start lg:ml-12 items-center lg:items-start">
                 <h5 className="mb-2 text-3xl font-bold">
                   Food Name
                 </h5>
                 <p className="mb-3 font-normal ">
-                  This web application ustilises API&apos;s to find the origin of the
+                  This web application ustilises API&apos;s to find the country of origin of the
                   users name and provide them with a geographically appropiate
-                  recipe and playlist. This application was a trial run for a 
-                  stateless cloud applicatio, once the trial was done the cloud computing
-                  was removed and is now a static webpage
+                  recipe and playlist. Food name was developed to practice my 
+                  ability to create a stateless cloud based web application using
+                  AWS.
                 </p>
                 <a
                       href="https://github.com/NicolasPower/Food-Name.git"
@@ -336,7 +336,7 @@ const Home: React.FC = () => {
               <div className="lg:w-1/3 sm:w-4/5 pb-3">
                 <img className="rounded-t-lg object-contain w-full" src="/img/portfolioSite.png" alt="" />
               </div>
-              <div className="lg:w-2/3 sm:w-4/5 flex flex-col sm:text-center sm:items-center lg:text-start lg:ml-12 items-center lg:items-start">
+              <div className="lg:w-2/3 sm:w-4/5 flex flex-col text-center sm:items-center lg:text-start lg:ml-12 items-center lg:items-start">
                 <h5 className="mb-2 text-3xl font-bold">
                   Portfolio Site
                 </h5>
@@ -373,14 +373,14 @@ const Home: React.FC = () => {
               <div className="lg:w-1/3 sm:w-4/5 pb-3">
                 <img className="rounded-t-lg object-contain w-full" src="/img/IISS.png" alt="" />
               </div>
-              <div className="lg:w-2/3 sm:w-4/5 flex flex-col sm:text-center sm:items-center lg:text-start lg:ml-12 items-center lg:items-start">
+              <div className="lg:w-2/3 sm:w-4/5 flex text-center flex-col sm:text-center sm:items-center lg:text-start lg:ml-12 items-center lg:items-start">
                 <h5 className="mb-2 text-3xl font-bold">
                   Insta Image Shape Shifter
                 </h5>
                 <p className="mb-3 font-normal text-text">
-                  Insta Image Shape Shifter is a web application that utilises node sharp to edit 
-                  users image/images to instagram ratios. It was producesd as part of Cloud Computing
-                  Unit and utilised a Variety of AWS services.
+                  Insta Image Shape Shifter is a web application that utilises Node Sharp to edit users&apos; 
+                  image/images to Instagram ratios. It was developed as part of a Cloud Computing Unit to 
+                  test my group&apos;s ability to create stateless web services utilising AWS.
                 </p>
                 <a
                       href="https://github.com/NicolasPower/Insta-Image-Shape-Shifter.git"
