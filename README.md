@@ -25,4 +25,4 @@ This portfolio website is a testament to my ongoing journey in computer science 
 
 ## Deployment
 
-The portfolio is live and accessible [here](#insert-link). Feel free to explore my projects and learn more about my skills and experiences.
+The portfolio is live and accessible [here](https://nicolaspower.vercel.app/). Feel free to explore my projects and learn more about my skills and experiences.
